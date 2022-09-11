@@ -742,7 +742,7 @@ body::after {
   flex-direction: column;
   position: absolute;
   z-index: 1;
-  bottom: 64px;
+  bottom: 100px;
 }
 @supports (font-size: clamp( 2.0625rem , 1.5439814815rem  +  2.5925925926vw , 3.375rem )) {
   .intro__title {
