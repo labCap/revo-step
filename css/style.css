@@ -446,15 +446,9 @@ body::after {
 }
 
 .header {
-  opacity: 0;
-  transition: all 0.3s linear;
   position: absolute;
   width: 100%;
   z-index: 100;
-}
-.header._active-anim {
-  opacity: 1;
-  transition: all 0.3s linear;
 }
 @supports (padding-top: clamp( 0.625rem , -0.4861111111rem  +  5.5555555556vw , 3.4375rem )) {
   .header {
@@ -473,6 +467,7 @@ body::after {
 }
 .header._header-scroll .nav {
   transform: translateY(-120%);
+  opacity: 0;
   transition: all 0.2s linear;
 }
 .header._header-scroll .nav.menu-open {
